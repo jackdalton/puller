@@ -1,2 +1,2 @@
 all:
-	gcc src/main.c -o puller
+	gcc src/main.c -o puller -Wall
