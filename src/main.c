@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define USAGE "Usage: puller [options] <directory1...directory2>"
-#define VERSION "0.2.3"
+#define VERSION "0.2.4"
 
 #include "puller.yucc"
 #include "colors.h"
@@ -74,4 +74,5 @@ int main(int argc, char *argv[]) {
   }
 
   printf(ANSI_COLOR_BLUE "--------------------------" ANSI_COLOR_RESET "\n");
+  return 0;
 }
