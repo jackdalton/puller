@@ -1,6 +1,6 @@
 # puller
 
-puller is a tiny C program to pull changes from several git repositories at one time.
+puller is a tiny C program to pull changes from several Git repositories at one time.
 
 To compile puller, clone this repository, and run `make`. puller's executable will be compiled to the repository's root directory. It is recommended to add puller to your PATH variable.
 
