@@ -1,4 +1,4 @@
-# puller
+# puller [![Build Status](https://travis-ci.org/jackdalton/puller.svg)](https://travis-ci.org/jackdalton/puller)
 
 puller is a tiny C program to pull changes from several Git repositories at one time.
 
