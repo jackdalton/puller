@@ -6,7 +6,7 @@ To compile puller, clone this repository, and run `make`. puller's executable wi
 
 To use puller, simply execute:
 
-```bash
+```shell
 puller <directory1...directory2>
 ```
 
