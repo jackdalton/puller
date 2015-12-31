@@ -1,0 +1,5 @@
+Usage: puller [options] <directory1...directory2>
+A tiny C program to pull several git repositories with a single command.
+
+  -h, --help      Show this help dialog
+  -V, --version   Show puller version
