@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define USAGE "Usage: puller [options] <directory1...directory2>"
-#define VERSION "0.2.4"
+#define VERSION "0.2.5"
 
 #include "puller.yucc"
 #include "colors.h"
@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
   char *dir_ending = (argc == 2 && success_repos != 0) ? "y" : "ies";
   char *fail_dir_ending = (fail_repos == 1 && argc - 1 - success_repos != 0) ? "y" : "ies";
   printf(ANSI_COLOR_BLUE "\n------PULLER SUMMARY------" ANSI_COLOR_RESET "\n");
-  printf(ANSI_COLOR_YELLOW "* Successfully pulled repositories in" ANSI_COLOR_GREEN " %d" ANSI_COLOR_YELLOW " director%s:" ANSI_COLOR_RESET "\n", success_repos, dir_ending);
+  printf(ANSI_COLOR_GREEN " %d" ANSI_COLOR_YELLOW " repositor%s up to date:" ANSI_COLOR_RESET "\n", success_repos, dir_ending);
 
   for (i = 1; i < argc; i++) {
     if (repo_exists(safe_dir_name(argv[i]))) {
